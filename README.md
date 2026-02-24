@@ -3,7 +3,7 @@
 =======
 # Plant Disease Detection - Comprehensive Setup Guide
 
-## 🌱 Project Overview
+##  Project Overview
 
 This is an AI-powered plant disease detection system that combines deep learning with practical agricultural insights. The system includes:
 
@@ -15,7 +15,7 @@ This is an AI-powered plant disease detection system that combines deep learning
 - **Crop Care Reminders**: Personalized maintenance reminders
 - **Offline Capability**: Download models for offline detection
 
-## 📋 Supported Plants & Diseases
+##  Supported Plants & Diseases
 
 ### Tomato
 - Bacterial Spot
@@ -38,7 +38,7 @@ This is an AI-powered plant disease detection system that combines deep learning
 - Bacterial Spot
 - Healthy
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -98,7 +98,7 @@ npm start
 
 Frontend will open at `http://localhost:3000`
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Disease Detection
 ```
@@ -148,7 +148,7 @@ GET /api/offline-model
 - Download model for offline use
 ```
 
-## 💻 Frontend Features
+## Frontend Features
 
 ### 1. Disease Detector Page
 - Drag-and-drop image upload
@@ -176,7 +176,7 @@ GET /api/offline-model
 - Track reminder history
 - Filter by plant type
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 plant-disease-ai/
@@ -203,7 +203,7 @@ plant-disease-ai/
 └── README.md                  # This file
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Backend Configuration (.env)
 ```
@@ -218,7 +218,7 @@ UPLOAD_FOLDER=uploads
 REACT_APP_API_URL=http://localhost:5000
 ```
 
-## 🧠 How It Works
+## How It Works
 
 ### 1. Image Upload
 - User uploads leaf image
@@ -244,7 +244,7 @@ REACT_APP_API_URL=http://localhost:5000
 - Filters by effectiveness and cost
 - Provides prevention measures
 
-## 📊 Model Details
+## Model Details
 
 - **Architecture**: ResNet50 with transfer learning
 - **Pre-trained on**: ImageNet
@@ -254,45 +254,7 @@ REACT_APP_API_URL=http://localhost:5000
 - **Data Augmentation**: Yes (rotation, zoom, flip, etc.)
 - **Accuracy**: ~95% on test set
 
-## 🚢 Deployment
-
-### Docker Deployment
-
-1. **Build Docker image:**
-```bash
-docker build -t plant-disease-ai .
-```
-
-2. **Run container:**
-```bash
-docker run -p 5000:5000 -p 3000:3000 plant-disease-ai
-```
-
-### Production Deployment
-
-- Use production WSGI server (Gunicorn)
-- Enable HTTPS/TLS
-- Set environment variables properly
-- Use persistent database
-- Enable CORS appropriately
-- Add rate limiting
-- Implement authentication
-
-## 🧪 Testing
-
-### Run Model Tests
-```bash
-cd backend
-python -m pytest tests/
-```
-
-### Test API Endpoints
-```bash
-curl http://localhost:5000/api/health
-curl http://localhost:5000/api/diseases
-```
-
-## 📈 Monitoring & Analytics
+## Monitoring & Analytics
 
 The system tracks:
 - Detection accuracy
@@ -305,57 +267,14 @@ View logs in `backend/logs/`:
 - `detections.log`: All detection events
 - `errors.log`: Error tracking
 
-## 🔐 Security Considerations
 
-- Input validation on all uploads
-- File size limits enforced
-- SQL injection prevented with parameterized queries
-- CORS configured appropriately
-- Environment variables for sensitive data
-- Authentication ready for scaling
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create feature branch
-3. Make changes
-4. Submit pull request
 
-## 📄 License
 
-This project is open source and available under the MIT License.
 
-## 🆘 Troubleshooting
 
-### Model not loading?
-- Ensure model training completed successfully
-- Check data path: `ml/PlantVillage/PlantVillage/`
-- Verify model file exists at `backend/model/plant_disease_model.h5`
-
-### API connection errors?
-- Ensure backend running: `python app.py`
-- Check CORS configuration
-- Verify port 5000 is available
-
-### Image upload failures?
-- Check file format (JPG, PNG, GIF)
-- Verify file size < 16MB
-- Check upload folder permissions
-
-### Frontend not loading?
-- Ensure Node modules installed: `npm install`
-- Check if port 3000 is available
-- Clear browser cache
-
-## 📞 Support
-
-For issues or questions:
-1. Check documentation
-2. Review API endpoints
-3. Check logs for errors
-4. Create an issue in repository
-
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - [ ] Multi-language support
 - [ ] Mobile app (React Native)
@@ -366,21 +285,8 @@ For issues or questions:
 - [ ] Batch image analysis
 - [ ] Export reports
 
-## 🏆 Hackathon Features Implemented
 
-✅ Real-time disease detection with deep learning
-✅ Treatment recommendations with dosages
-✅ Weather-based risk prediction
-✅ Image history tracking
-✅ Explainable AI visualization
-✅ Offline model capability
-✅ Crop care reminders
-✅ User-personalized system
-✅ Accessibility features
-✅ Affordable treatment suggestions
-✅ Web-based interface
 
 ---
 
-**Made with 🌱 for Farmers | Powered by AI | Designed for Accessibility**
->>>>>>> 55648b97 (Initial commit)
+**Made for Farmers
