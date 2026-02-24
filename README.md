@@ -268,12 +268,6 @@ View logs in `backend/logs/`:
 - `errors.log`: Error tracking
 
 
-
-
-
-
-
-
 ## Future Enhancements
 
 - [ ] Multi-language support
@@ -289,4 +283,4 @@ View logs in `backend/logs/`:
 
 ---
 
-**Made for Farmers
+**Made for Farmers, Powered by AI
