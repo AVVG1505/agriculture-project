@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# agriculture
-=======
-# Plant Disease Detection - Comprehensive Setup Guide
+
+# Plant Disease Detection - Using Machine Learning
 
 ##  Project Overview
 
